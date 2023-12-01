@@ -28,7 +28,7 @@ function CopyFiles {
         [Switch]$Force
     )
     #Remove-Item ger error ifall inte filpathen finns
-    if(-not (Test-Path -Path C:\Stena){
+    if(-not (Test-Path -Path C:\Stena)){
 	New-Item -Path 'C:\Stena' -ItemType Directory
     }
 

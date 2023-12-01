@@ -19,7 +19,8 @@
 * Wifi-lösenord skrivs in i terminalen
 * många andra saker
 # 2.30
-* Funkar nu med FT (iprincip likadan som PMR)
+* Funkar nu med FT (Samma konfig som pmr)
 * Nu kollar SetComputerName så att inte man har samma namn som man ska byta till innan den byter (Rename-computer ger error om namnet man ska ändra till är samma som det man har på datorn)
 * IoT är nu standard wifi istället för SM-Byod, SM-BYOD är nu med i wifi filtret istället
 * Ifall man knappar in fel division från början har man nu chans att ändra det
+* Ifall inte stena mappen när copy-files ska kopiera filer dit så läggs den till (annars blir det error)
